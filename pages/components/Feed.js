@@ -1,6 +1,7 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { FaUniversity } from 'react-icons/fa'
 import {GrCertificate, GrUserWorker} from 'react-icons/gr'
+import {GoMilestone} from 'react-icons/go'
 
 
 const timeline = [
@@ -70,7 +71,7 @@ const timeline = [
     href: 'https://1337.ma/',
     date: '2022',
     datetime: '2022',
-    icon: GrCertificate,
+    icon: GoMilestone,
     iconBackground: 'bg-green-400',
   },
 ]
