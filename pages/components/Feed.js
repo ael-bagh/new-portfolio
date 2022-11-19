@@ -45,7 +45,7 @@ const timeline = [
     iconBackground: 'bg-blue-400',
   },
   {
-    id: 4,
+    id: 5,
     content: 'Technichal University Diploma on information technology, services and networks',
     target: 'ESTM',
     href: '#',
@@ -55,7 +55,7 @@ const timeline = [
     iconBackground: 'bg-green-400',
   },
   {
-    id: 5,
+    id: 6,
     content: 'Started a new adventure at',
     target: '1337 school',
     href: 'https://1337.ma/',
@@ -65,7 +65,7 @@ const timeline = [
     iconBackground: 'bg-gray-400',
   },
   {
-    id: 5,
+    id: 7,
     content: 'Finished 1337',
     target: 'Common core',
     href: 'https://1337.ma/',
@@ -74,7 +74,7 @@ const timeline = [
     icon: GoMilestone,
     iconBackground: 'bg-green-400',
   },
-]
+].reverse()
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
